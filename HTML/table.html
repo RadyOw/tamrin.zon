@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول بازی‌ها | Radmehr</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/tamrin.css">
+
+</head>
+
+<body class="table-page">
+
+
+<!-- ==================================================
+     هدر اصلی (دقیقا مثل index.html - دکمه‌ی منو اینجا، بالا چپه)
+================================================== -->
+
+<header class="main-header">
+
+    <div class="header-right">
+
+        <div class="site-logo">
+            Radmehr
+        </div>
+
+        <nav class="category-menu">
+
+            <div class="category-item">
+                <button class="category-btn">بازی</button>
+                <div class="category-dropdown">
+                    <a href="#" class="dropdown-item"><span>جهان باز</span><small>Open World</small></a>
+                    <a href="#" class="dropdown-item"><span>شوتر</span><small>Shooter</small></a>
+                    <a href="#" class="dropdown-item"><span>فانتزی</span><small>Fantasy</small></a>
+                    <a href="#" class="dropdown-item"><span>استراتژیک</span><small>Strategy</small></a>
+                    <a href="#" class="dropdown-item"><span>ترسناک</span><small>Horror</small></a>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <button class="category-btn">فیلم</button>
+                <div class="category-dropdown">
+                    <a href="#" class="dropdown-item"><span>جنایی</span><small>Crime</small></a>
+                    <a href="#" class="dropdown-item"><span>درام</span><small>Drama</small></a>
+                    <a href="#" class="dropdown-item"><span>ترسناک</span><small>Horror</small></a>
+                    <a href="#" class="dropdown-item"><span>کمدی</span><small>Comedy</small></a>
+                    <a href="#" class="dropdown-item"><span>ماجراجویی</span><small>Adventure</small></a>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <button class="category-btn">سریال</button>
+                <div class="category-dropdown">
+                    <a href="#" class="dropdown-item"><span>جنایی</span><small>Crime</small></a>
+                    <a href="#" class="dropdown-item"><span>درام</span><small>Drama</small></a>
+                    <a href="#" class="dropdown-item"><span>ترسناک</span><small>Horror</small></a>
+                    <a href="#" class="dropdown-item"><span>کمدی</span><small>Comedy</small></a>
+                    <a href="#" class="dropdown-item"><span>ماجراجویی</span><small>Adventure</small></a>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <button class="category-btn">کنسول</button>
+                <div class="category-dropdown">
+                    <a href="#" class="dropdown-item"><span>PlayStation</span><small>PS</small></a>
+                    <a href="#" class="dropdown-item"><span>Xbox</span><small>Microsoft</small></a>
+                    <a href="#" class="dropdown-item"><span>Nintendo</span><small>Switch</small></a>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <button class="category-btn">سیستم</button>
+                <div class="category-dropdown">
+                    <a href="#" class="dropdown-item"><span>Lenovo</span><small>Laptops</small></a>
+                    <a href="#" class="dropdown-item"><span>Asus</span><small>Laptops</small></a>
+                    <a href="#" class="dropdown-item"><span>Dell</span><small>Laptops</small></a>
+                    <a href="#" class="dropdown-item"><span>HP</span><small>Laptops</small></a>
+                    <a href="#" class="dropdown-item"><span>Acer</span><small>Laptops</small></a>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <button class="category-btn launcher-btn">لانچر</button>
+                <div class="category-dropdown launcher-dropdown">
+                    <a href="#" class="dropdown-item"><span>Steam</span><small>PC Gaming</small></a>
+                    <a href="#" class="dropdown-item"><span>Epic Games</span><small>PC Gaming</small></a>
+                    <a href="#" class="dropdown-item"><span>Battle.net</span><small>Blizzard</small></a>
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+
+
+    <div class="joi-hologram">
+        <span class="joi-dot"></span>
+        <span class="joi-text">you look lonely, i can fix that</span>
+    </div>
+
+
+    <div class="header-left">
+
+        <button id="menu-btn">☰</button>
+
+        <button id="search-open-btn">🔍</button>
+
+        <div class="search-box">
+            <input type="text" placeholder="هرچی دوست داری سرچ کن:)">
+        </div>
+
+    </div>
+
+</header>
+
+
+<div id="menu-overlay"></div>
+
+<div id="side-menu">
+
+    <div class="menu-game-banner">
+        <div class="menu-game-icon">🎮</div>
+        <div class="menu-game-title">GAME ZONE</div>
+        <div class="menu-game-text">دنیای بازی‌ها و سرگرمی</div>
+    </div>
+
+    <a href="#" class="login-btn">ورود به سایت</a>
+
+    <a href="index.html">صفحه اصلی</a>
+    <a href="#">بلاگ</a>
+    <a href="#">قوانین</a>
+    <a href="#">اطلاعات</a>
+    <a href="table.html">جدول</a>
+
+    <div class="menu-space"></div>
+
+    <div class="social-menu">
+        <a href="#" class="social-btn telegram-btn">
+            <span class="social-icon">✈</span>
+            <span>Telegram</span>
+        </a>
+        <a href="#" class="social-btn instagram-btn">
+            <span class="social-icon">◎</span>
+            <span>Instagram</span>
+        </a>
+    </div>
+
+    <div class="menu-footer">Radmehr © 2026</div>
+
+</div>
+
+
+<!-- ==================================================
+     هیرو صفحه جدول
+================================================== -->
+
+<section class="table-hero">
+    <h1>جدول بازی‌ها 🎮</h1>
+    <p>همه‌ی ۹ بازی سایت، قیمت، تعداد بازیکن و وضعیت لحظه‌ایشون رو اینجا ببین.</p>
+</section>
+
+
+<!-- ==================================================
+     کارت‌های آماری
+================================================== -->
+
+<div class="table-stats-row">
+
+    <div class="table-stat-card">
+        <span class="table-stat-icon">🎮</span>
+        <b>۹</b>
+        <span>کل بازی‌ها</span>
+    </div>
+
+    <div class="table-stat-card">
+        <span class="table-stat-icon">🆓</span>
+        <b>۲</b>
+        <span>رایگان</span>
+    </div>
+
+    <div class="table-stat-card">
+        <span class="table-stat-icon">💳</span>
+        <b>۷</b>
+        <span>پولی</span>
+    </div>
+
+    <div class="table-stat-card">
+        <span class="table-stat-icon">🟢</span>
+        <b>۸</b>
+        <span>فعال الان</span>
+    </div>
+
+</div>
+
+
+<!-- ==================================================
+     نوار جستجو و فیلتر
+================================================== -->
+
+<div class="table-toolbar">
+
+    <input
+        type="text"
+        id="table-search"
+        class="table-search-input"
+        placeholder="اسم بازی رو جستجو کن..."
+    >
+
+</div>
+
+<div class="table-toolbar" style="margin-top: -10px;">
+
+    <div class="table-filter-chips" id="table-filters">
+        <span class="table-filter-chip active" data-filter="all">همه</span>
+        <span class="table-filter-chip" data-filter="free">رایگان</span>
+        <span class="table-filter-chip" data-filter="paid">پولی</span>
+        <span class="table-filter-chip" data-filter="online">فعال</span>
+        <span class="table-filter-chip" data-filter="update">در حال آپدیت</span>
+    </div>
+
+</div>
+
+
+<div class="game-status-box">
+
+    <span class="status-light right-light"></span>
+
+    <div class="status-content">
+        <h2>وضعیت فعلی بازی‌ها</h2>
+        <p>۹ بازی روی سایت، همیشه به‌روز و آماده‌ی دانلود</p>
+    </div>
+
+    <span class="status-light left-light"></span>
+
+</div>
+
+
+<div class="games-table-wrap">
+
+    <table id="games-table">
+
+        <tr>
+            <th>بازی</th>
+            <th>قیمت</th>
+            <th>تعداد بازیکن</th>
+            <th>وضعیت</th>
+        </tr>
+
+        <tr data-name="dota 2" data-price="free" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">🧙</span>
+                    <a href="Dota2.html">Dota 2</a>
+                </div>
+            </td>
+            <td><span class="price-tag free">رایگان</span></td>
+            <td><span class="players-tag">۲ تا ۱۰ نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+        <tr data-name="cs2" data-price="free" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">🎯</span>
+                    <a href="Cs2.html">CS2</a>
+                </div>
+            </td>
+            <td><span class="price-tag free">رایگان</span></td>
+            <td><span class="players-tag">۲ تا ۱۰ نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+        <tr data-name="sea of thieves" data-price="paid" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">🏴‍☠️</span>
+                    <a href="Sea of thieves.html">Sea of Thieves</a>
+                </div>
+            </td>
+            <td><span class="price-tag">$39.99</span></td>
+            <td><span class="players-tag">۱ تا ۴ نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+        <tr data-name="call of duty" data-price="paid" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">🔫</span>
+                    <a href="Call of duty.html">Call of Duty</a>
+                </div>
+            </td>
+            <td><span class="price-tag">$69.99</span></td>
+            <td><span class="players-tag">۱ تا ۱۵۰ نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+        <tr data-name="elden ring" data-price="paid" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">⚔️</span>
+                    <a href="Elden ring.html">Elden Ring</a>
+                </div>
+            </td>
+            <td><span class="price-tag">$59.99</span></td>
+            <td><span class="players-tag">۱ تا ۴ نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+        <tr data-name="devour" data-price="paid" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">👹</span>
+                    <a href="devour.html">Devour</a>
+                </div>
+            </td>
+            <td><span class="price-tag">$4.99</span></td>
+            <td><span class="players-tag">۱ تا ۴ نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+        <tr data-name="rust" data-price="paid" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">🏚️</span>
+                    <a href="rust.html">Rust</a>
+                </div>
+            </td>
+            <td><span class="price-tag">$39.99</span></td>
+            <td><span class="players-tag">تا چند صد نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+        <tr data-name="fc27" data-price="paid" data-status="update">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">⚽</span>
+                    <a href="fc27.html">FC27</a>
+                </div>
+            </td>
+            <td><span class="price-tag">$69.99</span></td>
+            <td><span class="players-tag">۱ تا ۲۲ نفر</span></td>
+            <td><span class="status-badge update">🔧 در حال آپدیت</span></td>
+        </tr>
+
+        <tr data-name="rainbow 6" data-price="paid" data-status="online">
+            <td>
+                <div class="game-name-cell">
+                    <span class="table-game-icon">🧱</span>
+                    <a href="rainbow6.html">Rainbow 6</a>
+                </div>
+            </td>
+            <td><span class="price-tag">$19.99</span></td>
+            <td><span class="players-tag">۲ تا ۱۰ نفر</span></td>
+            <td><span class="status-badge online">🟢 فعال</span></td>
+        </tr>
+
+    </table>
+
+</div>
+
+<p class="table-footnote" id="table-empty-msg" style="display: none;">هیچ بازی‌ای با این فیلتر پیدا نشد 😕</p>
+
+<footer class="site-footer">
+    <div class="footer-logo">Radmehr</div>
+    <p class="footer-thanks">ممنون که سر زدی 💜</p>
+    <p class="footer-text">
+        این سایت با عشق به دنیای گیمینگ ساخته شده تا بهترین بازی‌ها رو با جزییات کامل بهت معرفی کنه.
+        امیدواریم تجربه‌ی خوبی داشته باشی.
+    </p>
+    <p class="footer-copy">Radmehr © 2026 — تمام حقوق محفوظ است</p>
+</footer>
+<button id="support-btn">💬</button>
+
+<div id="support-panel">
+    <div class="support-header">
+        <span class="support-title">پشتیبانی Radmehr</span>
+        <button id="support-close" class="support-close">✕</button>
+    </div>
+    <div id="support-body" class="support-body">
+        <div class="support-msg">سلام 👋 چطور می‌تونم کمکت کنم؟</div>
+    </div>
+    <div class="support-footer">
+        <input id="support-input" type="text" placeholder="پیامتو بنویس...">
+        <button id="support-send">ارسال</button>
+    </div>
+</div>
+<script src="../JS/script.js"></script>
+
+</body>
+
+</html>
